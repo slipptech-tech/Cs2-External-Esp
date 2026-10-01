@@ -1,0 +1,199 @@
+{
+    "enabled": true,
+    "esp": {
+        "armor": true,
+        "bomb": true,
+        "box": false,
+        "colors": {
+            "bomb": [
+                1.0,
+                0.8399999737739563,
+                0.0,
+                1.0
+            ],
+            "box_enemy": [
+                1.0,
+                0.0,
+                0.0,
+                0.5
+            ],
+            "box_team": [
+                1.0,
+                0.5569620132446289,
+                0.0,
+                0.5
+            ],
+            "flags": {
+                "blinded_enemy": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.800000011920929
+                ],
+                "blinded_team": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.5
+                ],
+                "c4_enemy": [
+                    1.0,
+                    0.8399999737739563,
+                    0.0,
+                    1.0
+                ],
+                "c4_team": [
+                    1.0,
+                    0.8399999737739563,
+                    0.0,
+                    1.0
+                ],
+                "defusing_enemy": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.800000011920929
+                ],
+                "defusing_team": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.5
+                ],
+                "reloading_enemy": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.800000011920929
+                ],
+                "reloading_team": [
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.5
+                ],
+                "scoped_enemy": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.800000011920929
+                ],
+                "scoped_team": [
+                    0.30379748344421387,
+                    1.0,
+                    0.0,
+                    0.5
+                ]
+            },
+            "skeleton_enemy": [
+                0.0,
+                0.07594943046569824,
+                1.0,
+                0.5
+            ],
+            "skeleton_team": [
+                1.0,
+                0.9620252847671509,
+                0.0,
+                0.5
+            ],
+            "tracer_enemy": [
+                1.0,
+                0.0,
+                0.0,
+                0.5
+            ],
+            "tracer_team": [
+                0.0,
+                1.0,
+                0.0,
+                0.5
+            ],
+            "tracker_enemy": [
+                1.0,
+                1.0,
+                1.0,
+                0.30000001192092896
+            ],
+            "tracker_team": [
+                1.0,
+                1.0,
+                1.0,
+                0.30000001192092896
+            ]
+        },
+        "flags": {
+            "ammo": true,
+            "defusing": true,
+            "flashed": true,
+            "has_c4": true,
+            "money": true,
+            "name": true,
+            "ping": true,
+            "reloading": true,
+            "scoped": true,
+            "weapon": true
+        },
+        "head_tracker": true,
+        "health": true,
+        "health_number": false,
+        "skeleton": true,
+        "spotted": false,
+        "team": true,
+        "tracers": false
+    },
+    "utils": {
+        "free_cpu": true,
+        "streamproof": false,
+        "vsync": true,
+        "watermark": true
+    },
+    "world": {
+        "bomb": {
+            "location": true,
+            "pos": [
+                28.0,
+                560.0
+            ],
+            "timer": true
+        },
+        "crosshair": {
+            "enabled": true
+        },
+        "radar": {
+            "enabled": false,
+            "no_rotate": false,
+            "pos": [
+                10.0,
+                10.0
+            ],
+            "range": 2000.0,
+            "size": [
+                200.0,
+                200.0
+            ]
+        },
+        "spectators": {
+            "detailed": true,
+            "enabled": true,
+            "pos": [
+                25.0,
+                360.0
+            ],
+            "self_only": true
+        },
+        "velocity": {
+            "enabled": true,
+            "pos": [
+                24.0,
+                433.0
+            ],
+            "sample_length": 5.0,
+            "sample_rate": 35,
+            "size": [
+                400.0,
+                100.0
+            ]
+        }
+    }
+}
